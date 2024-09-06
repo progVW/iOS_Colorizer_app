@@ -9,11 +9,32 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var countTimer: UILabel!
+    
+    @IBOutlet weak var redButton: UIButton!
+    
+    var timer: Timer?
+    
+    @IBOutlet weak var greenButton: UIButton!
+    
+    @IBOutlet weak var blueButton: UIButton!
+    
+    @IBOutlet weak var backgroundView: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
     }
 
-
+    @IBAction func redButtonAction(_ sender: Any) {
+    }
+    
+    @IBAction func greenButtonAction(_ sender: Any) {
+    }
+    
+    @IBAction func blueButtonAction(_ sender: Any) {
+    }
+    
 }
 
